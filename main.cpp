@@ -20,7 +20,7 @@ int main()
     //Open camera
     cout<<"Opening Camera..."<<endl;
     if (!Camera.open()) {cerr<<"Error opening the camera"<<endl;return -1;}
-   
+  
     while (1)
     {
         Mat frame;
