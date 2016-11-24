@@ -28,8 +28,8 @@ int main()
         //bool bSuccess = cap.read(frame); // read a new frame from video
 	Camera.grab();
         Camera.retrieve (frame);
-	//cvtColor(frame, frame, CV_BGR2RGB);
-	cvtColor(frame, frame, CV_RGB2BGR);
+	cvtColor(frame, frame, CV_BGR2RGB);
+	//cvtColor(frame, frame, CV_RGB2BGR);
 	//cv::cvtColor(bgrMat, rgbMat, cv::COLOR_BGR2RGB);
 
         //if (!bSuccess) //if not success, break loop
