@@ -67,7 +67,6 @@ int main()
 			cout << "esc key is pressed by user" << endl;
 			break;
 		}
-	cout << "A";
 	}
 	return 0;
 }
